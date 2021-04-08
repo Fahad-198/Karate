@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.users</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-03-24 07:15:14 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>get all users</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/users.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Check returned users from API</span>
+          <span class="feature-description">for help, see: https://github.com/intuit/karate/wiki/IDE-Support</span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">get all users</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2077</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">19:15:12.800 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/public-api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2070</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">19:15:13.517 request:
+1 &gt; GET https://gorest.co.in/public-api/users
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:15:14.923 response time in milliseconds: 1371
+1 &lt; 200
+1 &lt; Server: nginx
+1 &lt; Date: Wed, 24 Mar 2021 14:15:14 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: [Accept-Encoding, Origin]
+1 &lt; X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; ETag: W/&quot;4ee6b9dd6af75c98b80d91c3be8149e8&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: cbf3eef5-0a4e-413a-a8b5-690196834c68
+1 &lt; X-Runtime: 0.004385
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Expect-CT: enforce; max-age=3600
+{&quot;code&quot;:200,&quot;data&quot;:[{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T19:41:40.246+05:30&quot;,&quot;name&quot;:&quot;Ivan&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.342+05:30&quot;,&quot;id&quot;:94,&quot;email&quot;:&quot;zzz&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.347+05:30&quot;,&quot;name&quot;:&quot;Priya Ganaka&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.347+05:30&quot;,&quot;id&quot;:95,&quot;email&quot;:&quot;priya_ganaka@torphy-stracke.net&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.359+05:30&quot;,&quot;name&quot;:&quot;Budhil Mahajan&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.359+05:30&quot;,&quot;id&quot;:96,&quot;email&quot;:&quot;mahajan_budhil@lubowitz.co&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.379+05:30&quot;,&quot;name&quot;:&quot;Shreya Kocchar&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.379+05:30&quot;,&quot;id&quot;:97,&quot;email&quot;:&quot;kocchar_shreya@kilback.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.399+05:30&quot;,&quot;name&quot;:&quot;Prof. Abhaidev Varma&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.399+05:30&quot;,&quot;id&quot;:98,&quot;email&quot;:&quot;abhaidev_prof_varma@yundt-bergnaum.com&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.417+05:30&quot;,&quot;name&quot;:&quot;Bhoopati Ahuja&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.417+05:30&quot;,&quot;id&quot;:99,&quot;email&quot;:&quot;ahuja_bhoopati@rogahn.net&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T18:48:13.620+05:30&quot;,&quot;name&quot;:&quot;Tanushri Gupta&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.430+05:30&quot;,&quot;id&quot;:100,&quot;email&quot;:&quot;phd_namboothiri_bhamini@breitenberg-marks.co&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.453+05:30&quot;,&quot;name&quot;:&quot;Ganapati Arora Sr.&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.453+05:30&quot;,&quot;id&quot;:101,&quot;email&quot;:&quot;sr_arora_ganapati@rau.com&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.476+05:30&quot;,&quot;name&quot;:&quot;Anjushree Marar&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.476+05:30&quot;,&quot;id&quot;:102,&quot;email&quot;:&quot;marar_anjushree@hammes-pacocha.co&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T13:09:29.863+05:30&quot;,&quot;name&quot;:&quot;Amrit Jain2&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.498+05:30&quot;,&quot;id&quot;:103,&quot;email&quot;:&quot;jain_amrit@hermiston.io&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.506+05:30&quot;,&quot;name&quot;:&quot;Sudeva Sharma Esq.&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.506+05:30&quot;,&quot;id&quot;:104,&quot;email&quot;:&quot;sudeva_sharma_esq@prohaska.io&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.526+05:30&quot;,&quot;name&quot;:&quot;Mr. Leela Pilla&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.526+05:30&quot;,&quot;id&quot;:105,&quot;email&quot;:&quot;leela_mr_pilla@homenick.co&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.546+05:30&quot;,&quot;name&quot;:&quot;Tushar Kakkar&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.546+05:30&quot;,&quot;id&quot;:106,&quot;email&quot;:&quot;kakkar_tushar@christiansen.net&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.556+05:30&quot;,&quot;name&quot;:&quot;Dharmaketu Somayaji&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.556+05:30&quot;,&quot;id&quot;:107,&quot;email&quot;:&quot;dharmaketu_somayaji@feeney.name&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.578+05:30&quot;,&quot;name&quot;:&quot;Tanushri Gupta&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.578+05:30&quot;,&quot;id&quot;:108,&quot;email&quot;:&quot;gupta_tanushri@cormier-graham.co&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.598+05:30&quot;,&quot;name&quot;:&quot;Chandini Jha&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.598+05:30&quot;,&quot;id&quot;:109,&quot;email&quot;:&quot;chandini_jha@mann-casper.biz&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.608+05:30&quot;,&quot;name&quot;:&quot;Girindra Kaur&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.608+05:30&quot;,&quot;id&quot;:110,&quot;email&quot;:&quot;girindra_kaur@ebert.net&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.614+05:30&quot;,&quot;name&quot;:&quot;Prof. Aashritha Shah&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.614+05:30&quot;,&quot;id&quot;:111,&quot;email&quot;:&quot;shah_prof_aashritha@upton.biz&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.617+05:30&quot;,&quot;name&quot;:&quot;Somnath Saini&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.617+05:30&quot;,&quot;id&quot;:112,&quot;email&quot;:&quot;saini_somnath@friesen.org&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T03:50:05.623+05:30&quot;,&quot;name&quot;:&quot;Chidaakaash Nambeesan PhD&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:05.623+05:30&quot;,&quot;id&quot;:113,&quot;email&quot;:&quot;chidaakaash_phd_nambeesan@kautzer-ziemann.io&quot;,&quot;status&quot;:&quot;Active&quot;}],&quot;meta&quot;:{&quot;pagination&quot;:{&quot;total&quot;:1474,&quot;pages&quot;:74,&quot;limit&quot;:20,&quot;page&quot;:1}}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

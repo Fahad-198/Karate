@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/users\/token[1:8]","start":1617367504941,"end":1617367506592,"title":"src\/test\/java\/examples\/users\/token[1:8] 17:45:04.941-17:45:06.592 Login without @"},{"id":2,"group":1,"content":"src\/test\/java\/examples\/users\/token[2:14]","start":1617367506602,"end":1617367506787,"title":"src\/test\/java\/examples\/users\/token[2:14] 17:45:06.602-17:45:06.787 Login without '.com'"},{"id":3,"group":1,"content":"src\/test\/java\/examples\/users\/token[3:20]","start":1617367506797,"end":1617367506983,"title":"src\/test\/java\/examples\/users\/token[3:20] 17:45:06.797-17:45:06.983 Login with '.com' and numbers  after it"},{"id":4,"group":1,"content":"src\/test\/java\/examples\/users\/token[4:26]","start":1617367506990,"end":1617367507210,"title":"src\/test\/java\/examples\/users\/token[4:26] 17:45:06.990-17:45:07.210 Login with space","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/examples\/users\/token[5:32]","start":1617367507219,"end":1617367507430,"title":"src\/test\/java\/examples\/users\/token[5:32] 17:45:07.219-17:45:07.430 Login with space","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

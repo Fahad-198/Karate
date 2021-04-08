@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/users\/configurescreen[1:9]","start":1617709279934,"end":1617709281773,"title":"src\/test\/java\/examples\/users\/configurescreen[1:9] 16:41:19.934-16:41:21.773 Screen configuration with correct data"},{"id":2,"group":1,"content":"src\/test\/java\/examples\/users\/configurescreen[2:15]","start":1617709281805,"end":1617709282697,"title":"src\/test\/java\/examples\/users\/configurescreen[2:15] 16:41:21.805-16:41:22.697 Screen configuration non existing screen in path","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/examples\/users\/configurescreen[3:21]","start":1617709282745,"end":1617709283311,"title":"src\/test\/java\/examples\/users\/configurescreen[3:21] 16:41:22.745-16:41:23.311 Screen configuration without heading 1"},{"id":4,"group":1,"content":"src\/test\/java\/examples\/users\/configurescreen[4:27]","start":1617709283312,"end":1617709284216,"title":"src\/test\/java\/examples\/users\/configurescreen[4:27] 16:41:23.312-16:41:24.216 Screen configuration without body_1"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

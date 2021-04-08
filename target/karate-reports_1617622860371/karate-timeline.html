@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/users\/token[1:8]","start":1617622592534,"end":1617622594322,"title":"src\/test\/java\/examples\/users\/token[1:8] 16:36:32.534-16:36:34.322 Login with correct email"},{"id":2,"group":1,"content":"src\/test\/java\/examples\/users\/token[2:14]","start":1617622594331,"end":1617622594523,"title":"src\/test\/java\/examples\/users\/token[2:14] 16:36:34.331-16:36:34.523 Login without @"},{"id":3,"group":1,"content":"src\/test\/java\/examples\/users\/token[3:20]","start":1617622594576,"end":1617622594831,"title":"src\/test\/java\/examples\/users\/token[3:20] 16:36:34.576-16:36:34.831 Login without '.com'"},{"id":4,"group":1,"content":"src\/test\/java\/examples\/users\/token[4:26]","start":1617622594896,"end":1617622595131,"title":"src\/test\/java\/examples\/users\/token[4:26] 16:36:34.896-16:36:35.131 Login with '.com' and numbers  after it"},{"id":5,"group":1,"content":"src\/test\/java\/examples\/users\/token[5:32]","start":1617622595151,"end":1617622595540,"title":"src\/test\/java\/examples\/users\/token[5:32] 16:36:35.151-16:36:35.540 Login with space in email","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/examples\/users\/token[6:38]","start":1617622595571,"end":1617622596065,"title":"src\/test\/java\/examples\/users\/token[6:38] 16:36:35.571-16:36:36.065 Login with 'org' instead of '.com'","className":"failed"},{"id":7,"group":1,"content":"src\/test\/java\/examples\/users\/token[7:44]","start":1617622596096,"end":1617622596401,"title":"src\/test\/java\/examples\/users\/token[7:44] 16:36:36.096-16:36:36.401 Login with long email"},{"id":8,"group":1,"content":"src\/test\/java\/examples\/users\/token[8:50]","start":1617622596426,"end":1617622596879,"title":"src\/test\/java\/examples\/users\/token[8:50] 16:36:36.426-16:36:36.879 Login with numbers before '.com'","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/users\/token[1:8]","start":1617366790555,"end":1617366791711,"title":"src\/test\/java\/examples\/users\/token[1:8] 17:33:10.555-17:33:11.711 Login without @"},{"id":2,"group":1,"content":"src\/test\/java\/examples\/users\/token[2:14]","start":1617366791723,"end":1617366791889,"title":"src\/test\/java\/examples\/users\/token[2:14] 17:33:11.723-17:33:11.889 Login without '.com'"},{"id":3,"group":1,"content":"src\/test\/java\/examples\/users\/token[3:20]","start":1617366791897,"end":1617366792061,"title":"src\/test\/java\/examples\/users\/token[3:20] 17:33:11.897-17:33:12.061 Login with '.com' and numbers  after it"},{"id":4,"group":1,"content":"src\/test\/java\/examples\/users\/token[4:26]","start":1617366792068,"end":1617366792293,"title":"src\/test\/java\/examples\/users\/token[4:26] 17:33:12.068-17:33:12.293 Login with space","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

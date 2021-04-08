@@ -1,0 +1,3020 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.token</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-04-05 04:35:04 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Login with correct email</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:14]"><span>[2:14]</span> <span>Login without @</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:20]"><span>[3:20]</span> <span>Login without &#39;.com&#39;</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:26]"><span>[4:26]</span> <span>Login with &#39;.com&#39; and numbers  after it</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[5:32]"><span>[5:32]</span> <span>Login with space in email</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[6:38]"><span>[6:38]</span> <span>Login with &#39;org&#39; instead of &#39;.com&#39;</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[7:44]"><span>[7:44]</span> <span>Login with long email</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[8:50]"><span>[8:50]</span> <span>Login with numbers before &#39;.com&#39;</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/token.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">check generated token by API</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Login with correct email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1054</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:01.427 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">66</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">976</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">16:35:02.193 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 44
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abc@xyz.com&quot;}
+
+16:35:02.569 response time in milliseconds: 368
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:35:02 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 59
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMWIxMzhjZTllNjZjZWM1MGUwZTU3N2U5MzVhZmE3Y2Q2NTgxMzQ5YjhhMjg5ZjQ1MDRiZjFhMGMxZTNmMjg5ZDVjN2I3NDg2ODBkYjg3MTMiLCJpYXQiOiIxNjE3NjIyNTAyLjI5OTIzNCIsIm5iZiI6IjE2MTc2MjI1MDIuMjk5MjQxIiwiZXhwIjoiMTY0OTE1ODUwMi4yOTE1OTIiLCJzdWIiOiIxNSIsInNjb3BlcyI6W119.F96o6-6iRJNOPgDsQOg9L4UTAKQIFtbYNYM0Ezw8tjNjikpW-CV7Utr-gi89MqKRf_hJFy_piYx7t3GIy_ct-gYUrRWaztz9ZTXyNK5PZo3xUBDS0RgRv2-mwXmMltSfhB-H67PYFoU860OL-MukDaW7BYIDRfHDbjLZQaQKl9bOC57bWCLXMnL7Fny5Lok2DAFtY8zCaR01aM2vY2KSXuenO8cvh6qMT-xNRXWJit_mX2oyJ6IFCmWzFWd286jyQlgePf8IeI7VmXNoLq8LwlMR0fLTT-uawf6-B6mGbywOUzmPSxiovlppB4etQi4DEBQRorYe20uwo07dqv5S3F2aZKLWXvcnOQI9MZmwAcgLv2h6Oj6JCH1-n0boqpWzxIrS-V1AuAZfh0OGm_X8_N0172kSD0jRq0MAqv9xxzPWc1eKtkZbzI2q0LoOLdfvG7HzhfK2UuhFL_mtuuMvxP9M1u9bNDguQn7TQwL3qxW3fcuL0IwA4hZN_pH4NbRSU7kZyAdNisqKSwXT1q4eq8QEkv37QL71tvUubHOSNM7wZb0EUGZVQeARO8kguvTh8W8erq51JpG3V52vH0BDqtLRq81_8gcK2WvlOGSIobeW1z8xz_rxaUQtYNxH5-qImKHhhBfvAapwmufAN8KvK-T53CLrHydeEcyD3pHq5jg&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:14]</span>
+                <span class="scenario-name">Login without @</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>192</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:14]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:02.582 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">191</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">16:35:02.582 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 43
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz.com&quot;}
+
+16:35:02.772 response time in milliseconds: 190
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:35:02 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 58
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:20]</span>
+                <span class="scenario-name">Login without &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>270</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:02.807 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz@&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">267</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">16:35:02.822 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 40
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz@&quot;}
+
+16:35:03.081 response time in milliseconds: 259
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:35:02 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 57
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:26]</span>
+                <span class="scenario-name">Login with &#39;.com&#39; and numbers  after it</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>183</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:03.089 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz@.com123&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">182</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">16:35:03.097 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 47
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz@.com123&quot;}
+
+16:35:03.271 response time in milliseconds: 174
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:35:03 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 56
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:32]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:32]</span>
+                <span class="scenario-name">Login with space in email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>239</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:32]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:03.286 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc @xyz.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">238</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">16:35:03.286 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 45
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abc @xyz.com&quot;}
+
+16:35:03.519 response time in milliseconds: 216
+1 &lt; 500
+1 &lt; Date: Mon, 05 Apr 2021 11:35:03 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 55
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;exception&quot;:&quot;Illuminate\\Database\\QueryException&quot;,&quot;trace&quot;:[{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:638,&quot;function&quot;:&quot;runQueryCallback&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:472,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:424,&quot;function&quot;:&quot;statement&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Processors\/Processor.php&quot;,&quot;line&quot;:32,&quot;function&quot;:&quot;insert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Builder.php&quot;,&quot;line&quot;:2882,&quot;function&quot;:&quot;processInsertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Builder.php&quot;,&quot;line&quot;:1547,&quot;function&quot;:&quot;insertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1051,&quot;function&quot;:&quot;__call&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1016,&quot;function&quot;:&quot;insertAndSetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:857,&quot;function&quot;:&quot;performInsert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/app\/Http\/Controllers\/LoginController.php&quot;,&quot;line&quot;:47,&quot;function&quot;:&quot;save&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Controller.php&quot;,&quot;line&quot;:54,&quot;function&quot;:&quot;login&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;App\\Http\\Controllers\\LoginController&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/ControllerDispatcher.php&quot;,&quot;line&quot;:45,&quot;function&quot;:&quot;callAction&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Controller&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:254,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\ControllerDispatcher&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:197,&quot;function&quot;:&quot;runController&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:693,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Routing\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/SubstituteBindings.php&quot;,&quot;line&quot;:50,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:127,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;handleRequest&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:55,&quot;function&quot;:&quot;handleRequestUsingNamedLimiter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:695,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:670,&quot;function&quot;:&quot;runRouteWithinStack&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:636,&quot;function&quot;:&quot;runRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:625,&quot;function&quot;:&quot;dispatchToRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:166,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Foundation\\Http\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php&quot;,&quot;line&quot;:27,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php&quot;,&quot;line&quot;:86,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fruitcake\\Cors\\HandleCors&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fideloper\/proxy\/src\/TrustProxies.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fideloper\\Proxy\\TrustProxies&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:141,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:110,&quot;function&quot;:&quot;sendRequestThroughRouter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/public\/index.php&quot;,&quot;line&quot;:52,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;}],&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:678,&quot;message&quot;:&quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345678&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abc @xyz.com, 12345678, 2021-04-05 11:35:03, 2021-04-05 11:35:03))&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref failed">36</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">16:35:03.531 src/test/java/examples/users/token.feature:36
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 216, url: http://65.1.234.203/api/login, response: 
+{
+    &quot;message&quot;: &quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345678&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abc @xyz.com, 12345678, 2021-04-05 11:35:03, 2021-04-05 11:35:03))&quot;,
+    &quot;exception&quot;: &quot;Illuminate\\Database\\QueryException&quot;,
+    &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+    &quot;line&quot;: 678,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 638,
+            &quot;function&quot;: &quot;runQueryCallback&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 472,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 424,
+            &quot;function&quot;: &quot;statement&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php&quot;,
+            &quot;line&quot;: 32,
+            &quot;function&quot;: &quot;insert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php&quot;,
+            &quot;line&quot;: 2882,
+            &quot;function&quot;: &quot;processInsertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php&quot;,
+            &quot;line&quot;: 1547,
+            &quot;function&quot;: &quot;insertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1051,
+            &quot;function&quot;: &quot;__call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1016,
+            &quot;function&quot;: &quot;insertAndSetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 857,
+            &quot;function&quot;: &quot;performInsert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/app/Http/Controllers/LoginController.php&quot;,
+            &quot;line&quot;: 47,
+            &quot;function&quot;: &quot;save&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;login&quot;,
+            &quot;class&quot;: &quot;App\\Http\\Controllers\\LoginController&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;callAction&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Controller&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 254,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\ControllerDispatcher&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 197,
+            &quot;function&quot;: &quot;runController&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 693,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php&quot;,
+            &quot;line&quot;: 50,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 695,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 670,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 166,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fruitcake/laravel-cors/src/HandleCors.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fideloper/proxy/src/TrustProxies.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 141,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 110,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/public/index.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
+}
+src/test/java/examples/users/token.feature:36
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[6:38]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[6:38]</span>
+                <span class="scenario-name">Login with &#39;org&#39; instead of &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>258</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[6:38]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:03.562 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz.org&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">255</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.41">16:35:03.577 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 44
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abc@xyz.org&quot;}
+
+16:35:03.821 response time in milliseconds: 244
+1 &lt; 500
+1 &lt; Date: Mon, 05 Apr 2021 11:35:03 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 54
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;exception&quot;:&quot;Illuminate\\Database\\QueryException&quot;,&quot;trace&quot;:[{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:638,&quot;function&quot;:&quot;runQueryCallback&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:472,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:424,&quot;function&quot;:&quot;statement&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Processors\/Processor.php&quot;,&quot;line&quot;:32,&quot;function&quot;:&quot;insert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Builder.php&quot;,&quot;line&quot;:2882,&quot;function&quot;:&quot;processInsertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Builder.php&quot;,&quot;line&quot;:1547,&quot;function&quot;:&quot;insertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1051,&quot;function&quot;:&quot;__call&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1016,&quot;function&quot;:&quot;insertAndSetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:857,&quot;function&quot;:&quot;performInsert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/app\/Http\/Controllers\/LoginController.php&quot;,&quot;line&quot;:47,&quot;function&quot;:&quot;save&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Controller.php&quot;,&quot;line&quot;:54,&quot;function&quot;:&quot;login&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;App\\Http\\Controllers\\LoginController&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/ControllerDispatcher.php&quot;,&quot;line&quot;:45,&quot;function&quot;:&quot;callAction&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Controller&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:254,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\ControllerDispatcher&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:197,&quot;function&quot;:&quot;runController&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:693,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Routing\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/SubstituteBindings.php&quot;,&quot;line&quot;:50,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:127,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;handleRequest&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:55,&quot;function&quot;:&quot;handleRequestUsingNamedLimiter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:695,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:670,&quot;function&quot;:&quot;runRouteWithinStack&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:636,&quot;function&quot;:&quot;runRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:625,&quot;function&quot;:&quot;dispatchToRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:166,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Foundation\\Http\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php&quot;,&quot;line&quot;:27,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php&quot;,&quot;line&quot;:86,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fruitcake\\Cors\\HandleCors&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fideloper\/proxy\/src\/TrustProxies.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fideloper\\Proxy\\TrustProxies&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:141,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:110,&quot;function&quot;:&quot;sendRequestThroughRouter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/public\/index.php&quot;,&quot;line&quot;:52,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;}],&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:678,&quot;message&quot;:&quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345678&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abc@xyz.org, 12345678, 2021-04-05 11:35:03, 2021-04-05 11:35:03))&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref failed">42</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.42">16:35:03.821 src/test/java/examples/users/token.feature:42
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 244, url: http://65.1.234.203/api/login, response: 
+{
+    &quot;message&quot;: &quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345678&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abc@xyz.org, 12345678, 2021-04-05 11:35:03, 2021-04-05 11:35:03))&quot;,
+    &quot;exception&quot;: &quot;Illuminate\\Database\\QueryException&quot;,
+    &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+    &quot;line&quot;: 678,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 638,
+            &quot;function&quot;: &quot;runQueryCallback&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 472,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 424,
+            &quot;function&quot;: &quot;statement&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php&quot;,
+            &quot;line&quot;: 32,
+            &quot;function&quot;: &quot;insert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php&quot;,
+            &quot;line&quot;: 2882,
+            &quot;function&quot;: &quot;processInsertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php&quot;,
+            &quot;line&quot;: 1547,
+            &quot;function&quot;: &quot;insertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1051,
+            &quot;function&quot;: &quot;__call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1016,
+            &quot;function&quot;: &quot;insertAndSetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 857,
+            &quot;function&quot;: &quot;performInsert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/app/Http/Controllers/LoginController.php&quot;,
+            &quot;line&quot;: 47,
+            &quot;function&quot;: &quot;save&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;login&quot;,
+            &quot;class&quot;: &quot;App\\Http\\Controllers\\LoginController&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;callAction&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Controller&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 254,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\ControllerDispatcher&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 197,
+            &quot;function&quot;: &quot;runController&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 693,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php&quot;,
+            &quot;line&quot;: 50,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 695,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 670,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 166,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fruitcake/laravel-cors/src/HandleCors.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fideloper/proxy/src/TrustProxies.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 141,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 110,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/public/index.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
+}
+src/test/java/examples/users/token.feature:42
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7:44]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7:44]</span>
+                <span class="scenario-name">Login with long email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>368</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7:44]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:03.836 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcsssssssssssssssssssssssssssssssssssssssss@xyz.com&quot;,&quot;google_id&quot;: 12345679 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">367</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">16:35:03.847 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 85
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345679,&quot;email&quot;:&quot;abcsssssssssssssssssssssssssssssssssssssssss@xyz.com&quot;}
+
+16:35:04.202 response time in milliseconds: 355
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:35:03 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 53
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNWRjMzFkZjRiMzAyMGQ2ZDg4NTkzNDY0ZTcyMzIwMDU0MmZjYWVhMzhmOTZhNzU3MjNhNDU4ODAxMDIzYjU4MTcxOGNkMzUwYTIyNWY4YTQiLCJpYXQiOiIxNjE3NjIyNTAzLjkxNjE4NiIsIm5iZiI6IjE2MTc2MjI1MDMuOTE2MTkyIiwiZXhwIjoiMTY0OTE1ODUwMy45MDg5NTEiLCJzdWIiOiI0MSIsInNjb3BlcyI6W119.EP-oSH6N_ljgMvXqFA7yGvsV8src5f_5ktIHt5wzCJIwPec5xhavmWpRDVOQPicYkW6NFCMhLZL7Th8ObTAWBkD30U-1G0a3AmssmPEgIVDmXWSxw5w5L7XwaSTNjY2pxGsHmrsxM9dgLdoTodbnfQkz-FA9lgN1x1twBeL2wZsYeBelrVALzCeZaLh9z5hb6FsWAzpUcxqx0WrIxgbSHIhAORM2thRgOouXUSw-3yyGpuCOa8V8vxpI7-FnC2NZkrxtn_O2Mc_CIlW0RE57zUyg_thPXhC2B2tAFkMTxSBa-qNCoMipo_am8OG5HApS031faJFd9kQ52goHTDIZM6T6NvoCePfbaJf27QmB2CF-WlVbcqiVq5vD9pp5qfFWVQyfbLgTrUDVZd8G4UdiDnkFyqIqjCIYHJUSBqSwEUpOh1M9Fd85yaMJEW26PVMLxg9PDne0IBugDkXGeLj8WfIhhQUX5u519SjlIddRbsDMrqVNSQHuEg45PKTqzAGJ_Tszn8CNzH7UQrLrOlnlmEG9oEAyGPJMMHzSrq0jIBoJr-EXLADwYjOlw2mI8yrFop_iQDBQqMtyU5yhPD86sMQyzMZBZA8szwa3l7NcqCBXrPV5OAb9tedZMKIAz8TaJLmJil7y22bnrRHgcG69xe8AUb-ExwPQWspY_gx_KmU&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[8:50]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[8:50]</span>
+                <span class="scenario-name">Login with numbers before &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>354</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[8:50]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:35:04.232 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz123.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">348</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.53">16:35:04.247 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 47
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abc@xyz123.com&quot;}
+
+16:35:04.587 response time in milliseconds: 280
+1 &lt; 500
+1 &lt; Date: Mon, 05 Apr 2021 11:35:04 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 52
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;exception&quot;:&quot;Illuminate\\Database\\QueryException&quot;,&quot;trace&quot;:[{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:638,&quot;function&quot;:&quot;runQueryCallback&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:472,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:424,&quot;function&quot;:&quot;statement&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Processors\/Processor.php&quot;,&quot;line&quot;:32,&quot;function&quot;:&quot;insert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Builder.php&quot;,&quot;line&quot;:2882,&quot;function&quot;:&quot;processInsertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Builder.php&quot;,&quot;line&quot;:1547,&quot;function&quot;:&quot;insertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1051,&quot;function&quot;:&quot;__call&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1016,&quot;function&quot;:&quot;insertAndSetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:857,&quot;function&quot;:&quot;performInsert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/app\/Http\/Controllers\/LoginController.php&quot;,&quot;line&quot;:47,&quot;function&quot;:&quot;save&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Controller.php&quot;,&quot;line&quot;:54,&quot;function&quot;:&quot;login&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;App\\Http\\Controllers\\LoginController&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/ControllerDispatcher.php&quot;,&quot;line&quot;:45,&quot;function&quot;:&quot;callAction&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Controller&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:254,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\ControllerDispatcher&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:197,&quot;function&quot;:&quot;runController&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:693,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Routing\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/SubstituteBindings.php&quot;,&quot;line&quot;:50,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:127,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;handleRequest&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:55,&quot;function&quot;:&quot;handleRequestUsingNamedLimiter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:695,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:670,&quot;function&quot;:&quot;runRouteWithinStack&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:636,&quot;function&quot;:&quot;runRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:625,&quot;function&quot;:&quot;dispatchToRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:166,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Foundation\\Http\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php&quot;,&quot;line&quot;:27,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php&quot;,&quot;line&quot;:86,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fruitcake\\Cors\\HandleCors&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fideloper\/proxy\/src\/TrustProxies.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fideloper\\Proxy\\TrustProxies&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:141,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:110,&quot;function&quot;:&quot;sendRequestThroughRouter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/public\/index.php&quot;,&quot;line&quot;:52,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;}],&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:678,&quot;message&quot;:&quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345678&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abc@xyz123.com, 12345678, 2021-04-05 11:35:04, 2021-04-05 11:35:04))&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref failed">54</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.54">16:35:04.597 src/test/java/examples/users/token.feature:54
+Then status 400
+status code was: 500, expected: 400, response time in milliseconds: 280, url: http://65.1.234.203/api/login, response: 
+{
+    &quot;message&quot;: &quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345678&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abc@xyz123.com, 12345678, 2021-04-05 11:35:04, 2021-04-05 11:35:04))&quot;,
+    &quot;exception&quot;: &quot;Illuminate\\Database\\QueryException&quot;,
+    &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+    &quot;line&quot;: 678,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 638,
+            &quot;function&quot;: &quot;runQueryCallback&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 472,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 424,
+            &quot;function&quot;: &quot;statement&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php&quot;,
+            &quot;line&quot;: 32,
+            &quot;function&quot;: &quot;insert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php&quot;,
+            &quot;line&quot;: 2882,
+            &quot;function&quot;: &quot;processInsertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php&quot;,
+            &quot;line&quot;: 1547,
+            &quot;function&quot;: &quot;insertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1051,
+            &quot;function&quot;: &quot;__call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1016,
+            &quot;function&quot;: &quot;insertAndSetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 857,
+            &quot;function&quot;: &quot;performInsert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/app/Http/Controllers/LoginController.php&quot;,
+            &quot;line&quot;: 47,
+            &quot;function&quot;: &quot;save&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;login&quot;,
+            &quot;class&quot;: &quot;App\\Http\\Controllers\\LoginController&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;callAction&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Controller&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 254,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\ControllerDispatcher&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 197,
+            &quot;function&quot;: &quot;runController&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 693,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php&quot;,
+            &quot;line&quot;: 50,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 695,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 670,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 166,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fruitcake/laravel-cors/src/HandleCors.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fideloper/proxy/src/TrustProxies.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 141,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 110,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/public/index.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
+}
+src/test/java/examples/users/token.feature:54
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

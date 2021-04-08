@@ -1,0 +1,2378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.token</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-04-05 04:41:05 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Login with correct email</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:14]"><span>[2:14]</span> <span>Login without @</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:20]"><span>[3:20]</span> <span>Login without &#39;.com&#39;</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:26]"><span>[4:26]</span> <span>Login with &#39;.com&#39; and numbers  after it</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[5:32]"><span>[5:32]</span> <span>Login with space in email</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[6:38]"><span>[6:38]</span> <span>Login with &#39;org&#39; instead of &#39;.com&#39;</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[7:44]"><span>[7:44]</span> <span>Login with long email</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[8:50]"><span>[8:50]</span> <span>Login with numbers before &#39;.com&#39;</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/token.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">check generated token by API</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Login with correct email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1181</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:02.310 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">66</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1105</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">16:41:03.126 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 44
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abc@xyz.com&quot;}
+
+16:41:03.546 response time in milliseconds: 415
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:41:03 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 59
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTMxOTFmYWU2NTRjNjk3MjA5ODliZThhMjNlZjhkMDYxNWZiNmQ4YjUwMGM5MDhhZjY2OTI5OTJmOGYyMjkxNGI4MDI1ZGY5MjY4NDZhZjUiLCJpYXQiOiIxNjE3NjIyODYzLjI1NDIxMSIsIm5iZiI6IjE2MTc2MjI4NjMuMjU0MjE4IiwiZXhwIjoiMTY0OTE1ODg2My4yNDY3NzYiLCJzdWIiOiIxNSIsInNjb3BlcyI6W119.RdN2EeAEutWffN7LvnaWHdAWsXeUnm8R7ftIaVVfpa4iGZFNgLrv7MRyyR_3UKm2jk_vu0RcxMPZVvk3k1faXFF4AACe9K3WYu4homp2CF_yRU5YOcQcJ5THXUg4_0B3r1M9iMb0JcbFPPWURWHNGGjafqwE7hJP6ApSnwm-Bno0xaaz2X86kqBrZsTawyRgQo4cFImliByCvrqLUetpUGY5D3LUi4BAIdQ6Ofs0H2sleIEn3RK6U3nh_LbxHQlpRaYMm4x_h4u-NvmwaxI3qHizAlrerLwtf2_MtP67RJX61Vm83eQnD4Mo2O0WJjLb_UxWeYPCDQOE9z58tgmfOj-wZThPyo4InT2qWd24XmSQV22xxmIunkKF_5B_4iyAFY71l6m9cCu5QArMmyfVe3_88qvlHEeVi43UXIJLr1tCtVk8QjzMnxNtIhQFJUjFAFcZUY5hEXWNiTh2oI4vaZ0nmsAYqVPoShEGz6yQf29ZIjo379uD-XFlyolhfnVtAxTKeqGLd1rwuoD5AJfA1eTeK04Nfuw8xNZX3Ig7yhqr-p7FPMc4GirMKUSzrfEqGsW9PX1RlO4NwE4938lEt3FL0Kk2k5bZgAizyTBIrB2CXtVDT_k2uH91VNavhqj8URuyazYx1_IBfxr5FQenX9sHWcAY8wJFTJykqXeRs2M&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:14]</span>
+                <span class="scenario-name">Login without @</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>277</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:14]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:03.561 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">275</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">16:41:03.566 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 43
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz.com&quot;}
+
+16:41:03.836 response time in milliseconds: 270
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:41:03 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 58
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:20]</span>
+                <span class="scenario-name">Login without &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>193</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:03.846 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz@&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">192</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">16:41:03.851 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 40
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz@&quot;}
+
+16:41:04.036 response time in milliseconds: 185
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:41:03 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 57
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:26]</span>
+                <span class="scenario-name">Login with &#39;.com&#39; and numbers  after it</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>298</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:04.052 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz@.com123&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">297</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">16:41:04.052 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 47
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz@.com123&quot;}
+
+16:41:04.351 response time in milliseconds: 299
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:41:04 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 56
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:32]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:32]</span>
+                <span class="scenario-name">Login with space in email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>295</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:32]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:04.361 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc @xyz.com&quot;,&quot;google_id&quot;: 12345672 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">294</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">16:41:04.366 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 45
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345672,&quot;email&quot;:&quot;abc @xyz.com&quot;}
+
+16:41:04.656 response time in milliseconds: 290
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:41:04 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 55
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTAyZGJmZTc3OWQ3Yzc0ZTI2YzM1NTI3NTdjMzFhMWQzZjAyYjk3YzhhZGU3OGZhMmQ2ZWQ2NmNlNjUzMDk5NjFlY2Y4YTg0ODU1MTBlMjAiLCJpYXQiOiIxNjE3NjIyODY0LjM2MzA3MyIsIm5iZiI6IjE2MTc2MjI4NjQuMzYzMDgwIiwiZXhwIjoiMTY0OTE1ODg2NC4zNTUzMzgiLCJzdWIiOiI0NiIsInNjb3BlcyI6W119.Qi-NO6Y0K2D_5cECRLrpymGJeEDPOCjDlxjBOEJFC-iFAz7SjS72erzD7CKOacYs9qVKtUyZBNMJF7q7O030qJlDMBwffzJsQNx1DhX8jAxLjwBzwLigtg7ZPWMdFA94Dml2P2uZPkUaxVys5BiFGSfzTpyh2OR3dmkJTK_-E0rqO_SUbb-FqmYlsY3b1FIXSEOQ7rLhSy5J5hQ5QvopwQP3xIvtXvvqb8SZ4Z6D1ratqQF0A0Ho5pI_JHyK_bp-xgJK2zw1kGh8W6gnNR6DiIvzVf9EsvKcoQjKGuNESSACJ3nx1h3wIiqb5LtSGb4pRRUqju0YHX1dVZmpCGFtAHM7mQ1zbReMgjMvlbOcCYjjsC6mVJ6_qjwNvmW8BEod1ABZdSWkNob6dS5Isuwsbj5FaOfg7SJ6PIfCRIENIdwIk9fMhUpKWKnE2uRDSWLhtRL7zkdl2reipRfaW3I0VdtrBg_rFMQLafFJU7usCnLmx_daP14V0CfJhHuYJnwaJTeq1yEIgDyRPbFLJrcNXLzO8hsGE1EQZj4un4KJTBWPWPAnvXbXv25cUl_1xAxstbww_lkuUZ2iip1VIB1xNgP1cvpQ4YG1_mf7cclVRJKlJhKHB2UXsPpYZH8VlLfAmABhwbaL3YdT4Z8-SWQGu9hbWsi3VHEgvOSxIhcWQ6Y&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref failed">36</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">16:41:04.661 src/test/java/examples/users/token.feature:36
+Then status 400
+status code was: 201, expected: 400, response time in milliseconds: 290, url: http://65.1.234.203/api/login, response: 
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTAyZGJmZTc3OWQ3Yzc0ZTI2YzM1NTI3NTdjMzFhMWQzZjAyYjk3YzhhZGU3OGZhMmQ2ZWQ2NmNlNjUzMDk5NjFlY2Y4YTg0ODU1MTBlMjAiLCJpYXQiOiIxNjE3NjIyODY0LjM2MzA3MyIsIm5iZiI6IjE2MTc2MjI4NjQuMzYzMDgwIiwiZXhwIjoiMTY0OTE1ODg2NC4zNTUzMzgiLCJzdWIiOiI0NiIsInNjb3BlcyI6W119.Qi-NO6Y0K2D_5cECRLrpymGJeEDPOCjDlxjBOEJFC-iFAz7SjS72erzD7CKOacYs9qVKtUyZBNMJF7q7O030qJlDMBwffzJsQNx1DhX8jAxLjwBzwLigtg7ZPWMdFA94Dml2P2uZPkUaxVys5BiFGSfzTpyh2OR3dmkJTK_-E0rqO_SUbb-FqmYlsY3b1FIXSEOQ7rLhSy5J5hQ5QvopwQP3xIvtXvvqb8SZ4Z6D1ratqQF0A0Ho5pI_JHyK_bp-xgJK2zw1kGh8W6gnNR6DiIvzVf9EsvKcoQjKGuNESSACJ3nx1h3wIiqb5LtSGb4pRRUqju0YHX1dVZmpCGFtAHM7mQ1zbReMgjMvlbOcCYjjsC6mVJ6_qjwNvmW8BEod1ABZdSWkNob6dS5Isuwsbj5FaOfg7SJ6PIfCRIENIdwIk9fMhUpKWKnE2uRDSWLhtRL7zkdl2reipRfaW3I0VdtrBg_rFMQLafFJU7usCnLmx_daP14V0CfJhHuYJnwaJTeq1yEIgDyRPbFLJrcNXLzO8hsGE1EQZj4un4KJTBWPWPAnvXbXv25cUl_1xAxstbww_lkuUZ2iip1VIB1xNgP1cvpQ4YG1_mf7cclVRJKlJhKHB2UXsPpYZH8VlLfAmABhwbaL3YdT4Z8-SWQGu9hbWsi3VHEgvOSxIhcWQ6Y&quot;}
+src/test/java/examples/users/token.feature:36
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[6:38]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[6:38]</span>
+                <span class="scenario-name">Login with &#39;org&#39; instead of &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>295</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[6:38]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:04.671 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz.org&quot;,&quot;google_id&quot;: 12345671 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">294</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.41">16:41:04.680 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 44
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345671,&quot;email&quot;:&quot;abc@xyz.org&quot;}
+
+16:41:04.961 response time in milliseconds: 281
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:41:04 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 54
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOWVjNTdmNjY2ZDFhZmIxZGRmMTVlNGVlMDM2OWRhZGU3N2Y0NTQwMjkzN2E5YzA5MDcxMGYwZjE4MzMxYjIwOTcyYTZmZmQwZjEyZDNmOTgiLCJpYXQiOiIxNjE3NjIyODY0LjY3NDg2NCIsIm5iZiI6IjE2MTc2MjI4NjQuNjc0ODcxIiwiZXhwIjoiMTY0OTE1ODg2NC42NjcyODAiLCJzdWIiOiI0NyIsInNjb3BlcyI6W119.XSrxDBCpC9JA7RiQOc80vDSA2cO_OuGrDOioun78wTfwmcjGEdmao5OeMttoWADxvelpLDd96DXmgp_ejSnNOM6geFihsVkuNfUqn43V0LphXlcSQ-NEr6AaM9RDmk2Vzf0-eSJTWrjIkVDNo1kk_7-lm47fLKIQ5xySwsVVB-CXeKFT9wblAdFhXmU69HrGzgKvEBDW48hBGwZD6atlIg42yXd4r1pwzi8_DdBEj1ocQENDk8l8RhGi5QMyYySTFBr_eekPSXOYYkl__2VZKdf-79lIauTzO4S7_NWL-qs2El8GdAR3UlKCOULWmpEvRNtXoc2EltVoxyiYMVdwW-psOpggYlf_KtwByVZX0N26ljc7gGznT0r61DopMqpKt6zJmT8Y3bCGyMMnCXx6Ny5cse82PTaU71QUd0pgOK3XSWHxYDmkuwFE3lnkg-WOYZDEe3B2qhm9pOVCI811Zv3nDi2cevguCgMqzgSOdQVluhWZ2-XjXSsmSjHb3V1XC3MV7BQVftfwAf6wkUXZJsjiA7KfE3jYmWHrHR5BGUhbAw9ZMvY2oblOqE6P_NTaV6H908BRvfWS47f6lRgMiN8hwHq25XU6G2wwnGhu_M4N8o_lXHMd38WdGOdjcGepUxnQ-Sdcew659qp6UXK_t2PybE0B8wIOwajfzfkWfdQ&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7:44]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7:44]</span>
+                <span class="scenario-name">Login with long email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>253</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7:44]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:04.996 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@xyz.com&quot;,&quot;google_id&quot;: 12345679 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">247</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">16:41:05.046 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 111
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345679,&quot;email&quot;:&quot;abcsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@xyz.com&quot;}
+
+16:41:05.276 response time in milliseconds: 230
+1 &lt; 500
+1 &lt; Date: Mon, 05 Apr 2021 11:41:05 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 53
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;exception&quot;:&quot;Illuminate\\Database\\QueryException&quot;,&quot;trace&quot;:[{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:638,&quot;function&quot;:&quot;runQueryCallback&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:472,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:424,&quot;function&quot;:&quot;statement&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Processors\/Processor.php&quot;,&quot;line&quot;:32,&quot;function&quot;:&quot;insert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Connection&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Query\/Builder.php&quot;,&quot;line&quot;:2882,&quot;function&quot;:&quot;processInsertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Builder.php&quot;,&quot;line&quot;:1547,&quot;function&quot;:&quot;insertGetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Query\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1051,&quot;function&quot;:&quot;__call&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Builder&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:1016,&quot;function&quot;:&quot;insertAndSetId&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Eloquent\/Model.php&quot;,&quot;line&quot;:857,&quot;function&quot;:&quot;performInsert&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/app\/Http\/Controllers\/LoginController.php&quot;,&quot;line&quot;:47,&quot;function&quot;:&quot;save&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Model&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Controller.php&quot;,&quot;line&quot;:54,&quot;function&quot;:&quot;login&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;App\\Http\\Controllers\\LoginController&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/ControllerDispatcher.php&quot;,&quot;line&quot;:45,&quot;function&quot;:&quot;callAction&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Controller&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:254,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\ControllerDispatcher&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php&quot;,&quot;line&quot;:197,&quot;function&quot;:&quot;runController&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:693,&quot;function&quot;:&quot;run&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Route&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Routing\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/SubstituteBindings.php&quot;,&quot;line&quot;:50,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:127,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;handleRequest&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Middleware\/ThrottleRequests.php&quot;,&quot;line&quot;:55,&quot;function&quot;:&quot;handleRequestUsingNamedLimiter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:695,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:670,&quot;function&quot;:&quot;runRouteWithinStack&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:636,&quot;function&quot;:&quot;runRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php&quot;,&quot;line&quot;:625,&quot;function&quot;:&quot;dispatchToRoute&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:166,&quot;function&quot;:&quot;dispatch&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Routing\\Router&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:128,&quot;function&quot;:&quot;Illuminate\\Foundation\\Http\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/TransformsRequest.php&quot;,&quot;line&quot;:21,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/ValidatePostSize.php&quot;,&quot;line&quot;:27,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/PreventRequestsDuringMaintenance.php&quot;,&quot;line&quot;:86,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fruitcake\/laravel-cors\/src\/HandleCors.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fruitcake\\Cors\\HandleCors&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/fideloper\/proxy\/src\/TrustProxies.php&quot;,&quot;line&quot;:57,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:167,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Fideloper\\Proxy\\TrustProxies&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php&quot;,&quot;line&quot;:103,&quot;function&quot;:&quot;Illuminate\\Pipeline\\{closure}&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:141,&quot;function&quot;:&quot;then&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Pipeline\\Pipeline&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php&quot;,&quot;line&quot;:110,&quot;function&quot;:&quot;sendRequestThroughRouter&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;},{&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/public\/index.php&quot;,&quot;line&quot;:52,&quot;function&quot;:&quot;handle&quot;,&quot;type&quot;:&quot;-&gt;&quot;,&quot;class&quot;:&quot;Illuminate\\Foundation\\Http\\Kernel&quot;}],&quot;file&quot;:&quot;\/opt\/bitnami\/projects\/easyd-laravel\/vendor\/laravel\/framework\/src\/Illuminate\/Database\/Connection.php&quot;,&quot;line&quot;:678,&quot;message&quot;:&quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345679&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abcsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@xyz.com, 12345679, 2021-04-05 11:41:05, 2021-04-05 11:41:05))&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref failed">48</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.48">16:41:05.301 src/test/java/examples/users/token.feature:48
+Then status 201
+status code was: 500, expected: 201, response time in milliseconds: 230, url: http://65.1.234.203/api/login, response: 
+{
+    &quot;message&quot;: &quot;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &#39;12345679&#39; for key &#39;users.users_google_id_unique&#39; (SQL: insert into `users` (`email`, `google_id`, `updated_at`, `created_at`) values (abcsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@xyz.com, 12345679, 2021-04-05 11:41:05, 2021-04-05 11:41:05))&quot;,
+    &quot;exception&quot;: &quot;Illuminate\\Database\\QueryException&quot;,
+    &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+    &quot;line&quot;: 678,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 638,
+            &quot;function&quot;: &quot;runQueryCallback&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 472,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php&quot;,
+            &quot;line&quot;: 424,
+            &quot;function&quot;: &quot;statement&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php&quot;,
+            &quot;line&quot;: 32,
+            &quot;function&quot;: &quot;insert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Connection&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php&quot;,
+            &quot;line&quot;: 2882,
+            &quot;function&quot;: &quot;processInsertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Processors\\Processor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php&quot;,
+            &quot;line&quot;: 1547,
+            &quot;function&quot;: &quot;insertGetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Query\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1051,
+            &quot;function&quot;: &quot;__call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Builder&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 1016,
+            &quot;function&quot;: &quot;insertAndSetId&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&quot;,
+            &quot;line&quot;: 857,
+            &quot;function&quot;: &quot;performInsert&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/app/Http/Controllers/LoginController.php&quot;,
+            &quot;line&quot;: 47,
+            &quot;function&quot;: &quot;save&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Database\\Eloquent\\Model&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;login&quot;,
+            &quot;class&quot;: &quot;App\\Http\\Controllers\\LoginController&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;callAction&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Controller&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 254,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\ControllerDispatcher&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php&quot;,
+            &quot;line&quot;: 197,
+            &quot;function&quot;: &quot;runController&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 693,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php&quot;,
+            &quot;line&quot;: 50,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 695,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 670,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 166,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fruitcake/laravel-cors/src/HandleCors.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/fideloper/proxy/src/TrustProxies.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 141,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php&quot;,
+            &quot;line&quot;: 110,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;/opt/bitnami/projects/easyd-laravel/public/index.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
+}
+src/test/java/examples/users/token.feature:48
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[8:50]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[8:50]</span>
+                <span class="scenario-name">Login with numbers before &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>282</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[8:50]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:41:05.316 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz123.com&quot;,&quot;google_id&quot;: 12345670 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">279</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.53">16:41:05.326 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 47
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345670,&quot;email&quot;:&quot;abc@xyz123.com&quot;}
+
+16:41:05.591 response time in milliseconds: 265
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:41:05 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 52
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjUxY2MyZTU3MGU5MjQ2YmQwNmQ2YTcxYjBjNTkwMTNlODE1NDdkZGRhNzM1NDUwNmRlYTY4ODg5MzljMWYyOTMxMjcyZGQ5YTEwOGJhMTQiLCJpYXQiOiIxNjE3NjIyODY1LjM3MjU3MCIsIm5iZiI6IjE2MTc2MjI4NjUuMzcyNTc2IiwiZXhwIjoiMTY0OTE1ODg2NS4zNjQwMTAiLCJzdWIiOiI0OCIsInNjb3BlcyI6W119.M7xH186Zn7KH1AT3WgqW7hLdQJUkN-_1PV41hCkw4ynLl8vBj8JsTZXTjKYZC_cJtn7aaO0lEX6H43FmXG8GQwNwweyGKCUCc_lTYVHCx9zfD56Kfjs7T4rmpROMezYTAk1qcZaxMSzH8ZRUKvAR4rMEBZsaxcZpHbUB5Tvp9MEV_KUHgZvKGpf4vqIjYrL_YBoelwvnLikcvNLynPoJkNkzCKEiC7Yb_ZpU8Eqcw2l3rm45Vcp71h2U4dNHUGPhoRma1FM2lm2AjAfRf67X0tW2oIcxknDMF2HHE00lzhzDPAzC3zMHJIpig9JsOp_fDE79Gh76zmGSJpstPI-Keo6fbVQqvpElsHarIqRa-J_6cvaqJ-_O8Guj9s2jdXAWpys6iQUve1yc3ca8C3HZEXtzjmrzPdsyfz8qRQ9L0EPBij5C4maDOzSIFGoF7Z3isZTEbuk_vgj9lHQ7ATkt3A3XdNTXoMPTshGLz0OkeIQZ3QQl5Nusxa-ehdSjGs5AtH0L5KZCjC1iFMirmsy_LTCnOSFmCH1d7d9z_s7Qm-4107ElsjgsRSYGr1glxm6zMpngJkngcc7mEZGLzn100-6orVPYZ4FJp0TSL7nQwLWZO33f9_EkktCNrIeXUcZLps6VckHyScKjN5FriF4zHye8fBGnktkZyvrmLkDHjQU&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref failed">54</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.54">16:41:05.601 src/test/java/examples/users/token.feature:54
+Then status 400
+status code was: 201, expected: 400, response time in milliseconds: 265, url: http://65.1.234.203/api/login, response: 
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjUxY2MyZTU3MGU5MjQ2YmQwNmQ2YTcxYjBjNTkwMTNlODE1NDdkZGRhNzM1NDUwNmRlYTY4ODg5MzljMWYyOTMxMjcyZGQ5YTEwOGJhMTQiLCJpYXQiOiIxNjE3NjIyODY1LjM3MjU3MCIsIm5iZiI6IjE2MTc2MjI4NjUuMzcyNTc2IiwiZXhwIjoiMTY0OTE1ODg2NS4zNjQwMTAiLCJzdWIiOiI0OCIsInNjb3BlcyI6W119.M7xH186Zn7KH1AT3WgqW7hLdQJUkN-_1PV41hCkw4ynLl8vBj8JsTZXTjKYZC_cJtn7aaO0lEX6H43FmXG8GQwNwweyGKCUCc_lTYVHCx9zfD56Kfjs7T4rmpROMezYTAk1qcZaxMSzH8ZRUKvAR4rMEBZsaxcZpHbUB5Tvp9MEV_KUHgZvKGpf4vqIjYrL_YBoelwvnLikcvNLynPoJkNkzCKEiC7Yb_ZpU8Eqcw2l3rm45Vcp71h2U4dNHUGPhoRma1FM2lm2AjAfRf67X0tW2oIcxknDMF2HHE00lzhzDPAzC3zMHJIpig9JsOp_fDE79Gh76zmGSJpstPI-Keo6fbVQqvpElsHarIqRa-J_6cvaqJ-_O8Guj9s2jdXAWpys6iQUve1yc3ca8C3HZEXtzjmrzPdsyfz8qRQ9L0EPBij5C4maDOzSIFGoF7Z3isZTEbuk_vgj9lHQ7ATkt3A3XdNTXoMPTshGLz0OkeIQZ3QQl5Nusxa-ehdSjGs5AtH0L5KZCjC1iFMirmsy_LTCnOSFmCH1d7d9z_s7Qm-4107ElsjgsRSYGr1glxm6zMpngJkngcc7mEZGLzn100-6orVPYZ4FJp0TSL7nQwLWZO33f9_EkktCNrIeXUcZLps6VckHyScKjN5FriF4zHye8fBGnktkZyvrmLkDHjQU&quot;}
+src/test/java/examples/users/token.feature:54
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

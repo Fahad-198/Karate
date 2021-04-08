@@ -1,0 +1,2052 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.token</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">6</div>
+      <div id="nav-fail" class="bg-danger">2</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-04-05 04:42:47 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Login with correct email</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:14]"><span>[2:14]</span> <span>Login without @</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:20]"><span>[3:20]</span> <span>Login without &#39;.com&#39;</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:26]"><span>[4:26]</span> <span>Login with &#39;.com&#39; and numbers  after it</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[5:32]"><span>[5:32]</span> <span>Login with space in email</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[6:38]"><span>[6:38]</span> <span>Login with &#39;org&#39; instead of &#39;.com&#39;</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[7:44]"><span>[7:44]</span> <span>Login with long email</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[8:50]"><span>[8:50]</span> <span>Login with numbers before &#39;.com&#39;</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/token.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">check generated token by API</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Login with correct email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1242</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:44.492 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">192</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1035</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">16:42:45.503 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 44
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abc@xyz.com&quot;}
+
+16:42:45.831 response time in milliseconds: 320
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:42:45 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 59
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiN2U0ZmEyN2I0M2I2MTBmYTI2N2ZjOWQzMTg5MDAxYWE2NmRkMGI2Y2IyOTM2NDM0ZTgyNjM2YzJjNzRmMWVjMjJiNGMwZGRhM2M3YjNkOTkiLCJpYXQiOiIxNjE3NjIyOTY1LjU0MjYyOSIsIm5iZiI6IjE2MTc2MjI5NjUuNTQyNjM2IiwiZXhwIjoiMTY0OTE1ODk2NS41MzQ3NzIiLCJzdWIiOiIxNSIsInNjb3BlcyI6W119.eZijAMBnvB1K0RiHjo5FA6WHj7wPK10VcdGao7LFcr_4zkR-JSd0wjZmi3GgI5hd3SuHik18-JRuElw-PlPl2UJnTDw7W_5CWXU37tgjmzEJqcu4XXUW1H3qnD127HOhFSO8t7ooURHTRGSPOg8hBl_5MyXk-SUpSficLhiICT-pbgM3lcxR5GrnwlPN51PzCgo3AgzUyktCTxZiIlsBCXRV8z3_Vl6yHDZ3D_-wJqZmFjAaCXSHf7FwCbofYlgWTndcBeZGjGzFJ2suGhBRpCtUwXxqDwpGT-ztwlCUaPwGkHyI6GZxZIvqqYPX1-Y8ystGkdGPE484jivAAbhcnNyNQX9UBR92x4dFFxUnJjGl4pxxJCvO-ea4umlD0PUTjTod3AENFLpkVn2fklQIoaCDysTA_s3gC6Gh-xsxeNYD4lbJgAvyPAuP8qSPdqBd3ZsWK6Hj_TPxkora_HGPlezQzg6ctQJ3gi2NYDMV2tYfG8U6MJcRnrFdzc2lkjhVAc-GmFqaxmEk7AGQW2kK7JAYSz4h9EP5iRldxW7g2MtArXcuhtPyti9bzcV0dPq6334BlRr9DyYsz4du1PeUajTa3gH-ucnDV-FWeQvgBAX1S6ZUTpPQM0xAn1DPyfENIxF3-SsepE9xXfDpiTkG9kAxhwF5oqK2oNSMhU8QSSI&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:14]</span>
+                <span class="scenario-name">Login without @</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>165</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:14]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:45.847 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz.com&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">163</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">16:42:45.855 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 43
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz.com&quot;}
+
+16:42:46.008 response time in milliseconds: 153
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:42:45 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 58
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:20]</span>
+                <span class="scenario-name">Login without &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>215</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:46.023 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz@&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">213</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">16:42:46.023 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 40
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz@&quot;}
+
+16:42:46.235 response time in milliseconds: 212
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:42:46 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 57
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:26]</span>
+                <span class="scenario-name">Login with &#39;.com&#39; and numbers  after it</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>249</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:46.267 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcxyz@.com123&quot;,&quot;google_id&quot;: 12345678 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">246</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">16:42:46.314 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 47
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345678,&quot;email&quot;:&quot;abcxyz@.com123&quot;}
+
+16:42:46.530 response time in milliseconds: 216
+1 &lt; 400
+1 &lt; Date: Mon, 05 Apr 2021 11:42:46 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 56
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: close
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;errors&quot;:{&quot;email&quot;:[&quot;The email must be a valid email address.&quot;]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:32]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:32]</span>
+                <span class="scenario-name">Login with space in email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>307</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:32]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:46.568 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc @xyz.com&quot;,&quot;google_id&quot;: 12345672 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">304</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">16:42:46.583 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 45
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345672,&quot;email&quot;:&quot;abc @xyz.com&quot;}
+
+16:42:46.876 response time in milliseconds: 293
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:42:46 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 55
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiM2E1ZTM0MWI0ZTU0NTEzMzJjZDI2ZjU5ODNjNWY5ZjYxN2U0OGIzYWFkMDFhODY1M2U5YmQ4NWE3ZGZmYjMwNmRlNzg2ZjQ5YTVlZDc2OTMiLCJpYXQiOiIxNjE3NjIyOTY2LjY1NjI0NiIsIm5iZiI6IjE2MTc2MjI5NjYuNjU2MjUzIiwiZXhwIjoiMTY0OTE1ODk2Ni42NDgyMzIiLCJzdWIiOiI0NiIsInNjb3BlcyI6W119.SylUjgGwHLvh882H4kVb3PkNr-wK6epVaUqcWWSfzMz8IcRsj-e9Sb10U8fmP4_KH0LoJ4IEA8K8ZGCEBN_RaiDfm_z4-thHCMBekimQ5ly_5KVaCPYC0osgdMXAvWXrRutmAtbT7gPrSRYemqDaMZtFQ66q-IksaaGqu23G3Zp9cqKUNqGTLNPZRH081slGtBz4E6kJ_b9740hMO6lyE92s4L5M9QaMVuAGGLFf6vZN_19AVKUtzCEbzvt19kzef-c6ZAN4_8I75ZPyMpXk0J4NP-aq2ReITKpb154vj36KQ3ivrZJ-eps0En122huG8YgUY17VvrU9zzJz5gFJfeyUeUQALr9WczowtSytcbB9bvAcDcpzVfMTVu1zNVDyqmQpJPcK65csVhz77hJ9HGGK_I_TU1OQSP79FAeNOgsUt7WNcFXoqDCh6bP113xmQ_teoxmwv-g0P4eiEEv5294DJEYRII-B3SbGHs7tYM9IGK-4RA6F6SnCE4FWvJerRkmeoGHz6mx8mOHEJQqWLS3sVH0hfFJbGrNPjDTNaR_WUVpPvr04q9M32U_U4D8GvAUiV7j4wyHvASRP6n0WtrLkHyJdT0Fj0uCxF-WG31A80yLNn05zJms5fN8pgQrHVdg_mln-iak7Jok0SE-8MrAUyHu2WtmwXKHfR5aS41Q&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref failed">36</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">16:42:46.884 src/test/java/examples/users/token.feature:36
+Then status 400
+status code was: 201, expected: 400, response time in milliseconds: 293, url: http://65.1.234.203/api/login, response: 
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiM2E1ZTM0MWI0ZTU0NTEzMzJjZDI2ZjU5ODNjNWY5ZjYxN2U0OGIzYWFkMDFhODY1M2U5YmQ4NWE3ZGZmYjMwNmRlNzg2ZjQ5YTVlZDc2OTMiLCJpYXQiOiIxNjE3NjIyOTY2LjY1NjI0NiIsIm5iZiI6IjE2MTc2MjI5NjYuNjU2MjUzIiwiZXhwIjoiMTY0OTE1ODk2Ni42NDgyMzIiLCJzdWIiOiI0NiIsInNjb3BlcyI6W119.SylUjgGwHLvh882H4kVb3PkNr-wK6epVaUqcWWSfzMz8IcRsj-e9Sb10U8fmP4_KH0LoJ4IEA8K8ZGCEBN_RaiDfm_z4-thHCMBekimQ5ly_5KVaCPYC0osgdMXAvWXrRutmAtbT7gPrSRYemqDaMZtFQ66q-IksaaGqu23G3Zp9cqKUNqGTLNPZRH081slGtBz4E6kJ_b9740hMO6lyE92s4L5M9QaMVuAGGLFf6vZN_19AVKUtzCEbzvt19kzef-c6ZAN4_8I75ZPyMpXk0J4NP-aq2ReITKpb154vj36KQ3ivrZJ-eps0En122huG8YgUY17VvrU9zzJz5gFJfeyUeUQALr9WczowtSytcbB9bvAcDcpzVfMTVu1zNVDyqmQpJPcK65csVhz77hJ9HGGK_I_TU1OQSP79FAeNOgsUt7WNcFXoqDCh6bP113xmQ_teoxmwv-g0P4eiEEv5294DJEYRII-B3SbGHs7tYM9IGK-4RA6F6SnCE4FWvJerRkmeoGHz6mx8mOHEJQqWLS3sVH0hfFJbGrNPjDTNaR_WUVpPvr04q9M32U_U4D8GvAUiV7j4wyHvASRP6n0WtrLkHyJdT0Fj0uCxF-WG31A80yLNn05zJms5fN8pgQrHVdg_mln-iak7Jok0SE-8MrAUyHu2WtmwXKHfR5aS41Q&quot;}
+src/test/java/examples/users/token.feature:36
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[6:38]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[6:38]</span>
+                <span class="scenario-name">Login with &#39;org&#39; instead of &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>380</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[6:38]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:46.892 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz.org&quot;,&quot;google_id&quot;: 12345671 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">378</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.41">16:42:46.900 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 44
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345671,&quot;email&quot;:&quot;abc@xyz.org&quot;}
+
+16:42:47.264 response time in milliseconds: 364
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:42:46 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 54
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMDM2M2NmZDJkMTNlZTVlOWUxZjQ2NzQ4YWFkYTU4NWFhNmY5YmNkYWQzMTRhYmIzNjNiYTIzNTdmNzJkNWI5M2JhNDViMDg5YWVmZTk5OTAiLCJpYXQiOiIxNjE3NjIyOTY2Ljk2NjA1MiIsIm5iZiI6IjE2MTc2MjI5NjYuOTY2MDU5IiwiZXhwIjoiMTY0OTE1ODk2Ni45NTc2NjEiLCJzdWIiOiI0NyIsInNjb3BlcyI6W119.T0zlnuIlDx8Mv-XFPsnAsw8FW01MWoz9ES_DogxrrMiWzhgjtd4OXiM5b1KWCTjxFEbP_9EFvQfsL2SLFakJDiosY-yA1zFTtFXBvPxpoIy_je5WL78oEsUDPcVppv9vsuEG2R0UOCbWyonadNK5YUx90svlqTq9pDkXXYGI8sQAoTOmvrmdlqwAwWb6U5Blpr7-qKQoFURy0klnwaBSiKO5divoGqpGgIhrgbXoY-iGrJAnc0ha4xYwRoOZci7wxByBcBJQxeEauRF7E6WW2NjwxHjEHLYFyZUBPSy9iE7Sc9USALnn5TidGY_-aHp77oiioDZnnELjr4MI_mTLnv5NGdsB5soAZxT3bhcEV-7Nxmy6qp6GoDZMto5ami9hfPap8nTSjAnX6e6TVDrhtm1k7ms3A0UJJrGRdyoHOOhs3CBLko66SMSMoaz3qQ-Xegff6FhnRs6okqu-7XIlhP36-AXHL3aOyZu0PUlfzjEKPLyrvKFr7oWJC5Waey6Tx3kjYLtBrquGxKNEevf8irY5-xEPRvD8LrXnfpG2KB6WOrfRRWVSE92RWoVIBtaiYGoT2XdgpfLIl_pTGbzkctVqxkAE_oOiF78YHGq4e_8bMQubSrqWmw7QFrvcZZY4MRAu5fBGP7wfi52yiR8YoKAbUt-SSTR40cHbvBkhm68&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7:44]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7:44]</span>
+                <span class="scenario-name">Login with long email</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>238</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7:44]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:47.311 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:44]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abcsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@xyz.com&quot;,&quot;google_id&quot;: 12345609 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">232</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">16:42:47.342 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 111
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345609,&quot;email&quot;:&quot;abcsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss@xyz.com&quot;}
+
+16:42:47.556 response time in milliseconds: 214
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:42:47 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 53
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMzE2Yjk4NDI1MjE5NGFjODljYzJmZGYyM2ZmMjA3OTkxZWE4YTA0YTg1OTIzYzYwMGFlY2U0YjQ4NzFmOWE4YzgzZWRlNTliOWY5MmUxNjkiLCJpYXQiOiIxNjE3NjIyOTY3LjMzNjkwNyIsIm5iZiI6IjE2MTc2MjI5NjcuMzM2OTEzIiwiZXhwIjoiMTY0OTE1ODk2Ny4zMjk4NTYiLCJzdWIiOiI1MCIsInNjb3BlcyI6W119.IUW7qvRuItVlQPwQ2nSLtGzoqOyYtFwQ_1g7a4XUtuWpGH7EYYeVkt4UKZFYjunbzyN4KbjyU3wMwc-ADbiRsoykkiRlegMYTmQWSDbBf5RMWLaphLRxA2sDvPve8D93fAt87keKC3yh3yavpe-SnyLGvQDXLcmFfuRrabtJzarfxbUtjcvRVt6BCamxneZeWQWgeGQ28Yu89zZqK4Qlu4H2iXkq81AYpgXuAKMZvLRrYXdm8-YBYHO74MVGN7Bv6Rg4L5zQoAjyfcxmFaLtmmugfYweYrolNcgVIUlgR4UMIbqFgrasvarr51vCjPeKylaXc2jkQfd0km_OhssmWG4XTchOF7fBiohRO44ItUl9cICPbJwfpAeyjuiQqe9h5lMq5q75hvh7zW9qEWgsE-4yjy4I0Xzm4aV5oXaZLGCZKRCGJ7v0mav1pO7wzO6XeE3tZoo7bEg0D_M17jaXdTI8FNZx6uSwOncmToyt6TnouDn5boOtc0UWBzvpUSc8ifI3MP4N7SKaw0gqGE7VZo3iAGhCnS8YRvg6Mac-1yDUvym-xJH3MRaTgDQXRFlZz8gBwtsrAK8JyH_Csc8bHJ-OjUa0i440h0KM-wVq0S5KPh7dqkKeaUB2VnCjDbmB9n4OwvJimkGSUIOZ0wPD1b3lTiiHYpUzXC2W1QcFJNk&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[8:50]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[8:50]</span>
+                <span class="scenario-name">Login with numbers before &#39;.com&#39;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>307</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[8:50]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://65.1.234.203&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:42:47.556 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[8:50]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;abc@xyz123.com&quot;,&quot;google_id&quot;: 12345670 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">305</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.53">16:42:47.571 request:
+1 &gt; POST http://65.1.234.203/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Accept: application/json
+1 &gt; Content-Length: 47
+1 &gt; Host: 65.1.234.203
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;google_id&quot;:12345670,&quot;email&quot;:&quot;abc@xyz123.com&quot;}
+
+16:42:47.868 response time in milliseconds: 297
+1 &lt; 201
+1 &lt; Date: Mon, 05 Apr 2021 11:42:47 GMT
+1 &lt; Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1d
+1 &lt; X-Powered-By: PHP/7.4.15
+1 &lt; Cache-Control: no-cache, private
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 52
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNmMxZDU2Njg1NzYwNGM1MWYwZWIwNGZhZTIzYWMxNzc0ZDZmNmYxYzAwYThhNTkzOTI1NDI5M2Q4ZDcwZWUxY2IyYmI0MTJmMWI1MWIxMjkiLCJpYXQiOiIxNjE3NjIyOTY3LjU4MTE3MyIsIm5iZiI6IjE2MTc2MjI5NjcuNTgxMTc5IiwiZXhwIjoiMTY0OTE1ODk2Ny41NzMyMTEiLCJzdWIiOiI0OCIsInNjb3BlcyI6W119.tP_VifyDqg4KrTljKZgituiQ6t4aBjZ-KDdlkjLQvJcZbvxdJ9NOvEURRwqK8mmNhViIYWx8LIGTItIbur09qZKEgVaGPTqgd7q3kLVTudUvEfLX8BYfKbcuqo1hbRg4PclyMBBI8hF3KGOB5PuY62tan_u2uMqDY_C4D0K-MWyihZUCRxac7Bgyf8CTcCH_-U3CDX_H_yjUx7fAlbmSmiY8AMk-GhJgK1zg4HiuQBohU9ZrYwsbWLcPvgXFEbCB65Sl3tAaG4qX7L1jSgANqyGNvF_TJbOU28NN95UeWnlu5SHp9o-wp0p8ytLiOVX0GMFWpsb7rBZek6OWrEx2eYk3TvtoDU_D1MytBhMgx-e0lKU5CaVNUvstShCk6B5WlDJHd3-FCefTgPPToqyvJlPNutcMDFBvYqduj-_eAEvV6VdDbr_cgzSsmEDRQ4hvLKKSmWP6fE2argHOXzdcq8Q6iDjyJu_yjWGztrNMOhmDOyff4iTdGWkhaBHPKF-J-WdJLhMxjGjJmB9fI1rhDZSw7rlVxaYZrZs3KO9OIASfs-iaNeR1bnSCMGX5YSDWyLsbCUegWwnYU_R_GRKJnfKp-uFL0_r66W0L7ft8I0O5e22wYeOJO1Bb6DH5a-CwAMtCI6AnrZlYMfag8Yi-FJAu7_q5fOYmQqONTwjWmog&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref failed">54</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.54">16:42:47.868 src/test/java/examples/users/token.feature:54
+Then status 400
+status code was: 201, expected: 400, response time in milliseconds: 297, url: http://65.1.234.203/api/login, response: 
+{&quot;access_token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNmMxZDU2Njg1NzYwNGM1MWYwZWIwNGZhZTIzYWMxNzc0ZDZmNmYxYzAwYThhNTkzOTI1NDI5M2Q4ZDcwZWUxY2IyYmI0MTJmMWI1MWIxMjkiLCJpYXQiOiIxNjE3NjIyOTY3LjU4MTE3MyIsIm5iZiI6IjE2MTc2MjI5NjcuNTgxMTc5IiwiZXhwIjoiMTY0OTE1ODk2Ny41NzMyMTEiLCJzdWIiOiI0OCIsInNjb3BlcyI6W119.tP_VifyDqg4KrTljKZgituiQ6t4aBjZ-KDdlkjLQvJcZbvxdJ9NOvEURRwqK8mmNhViIYWx8LIGTItIbur09qZKEgVaGPTqgd7q3kLVTudUvEfLX8BYfKbcuqo1hbRg4PclyMBBI8hF3KGOB5PuY62tan_u2uMqDY_C4D0K-MWyihZUCRxac7Bgyf8CTcCH_-U3CDX_H_yjUx7fAlbmSmiY8AMk-GhJgK1zg4HiuQBohU9ZrYwsbWLcPvgXFEbCB65Sl3tAaG4qX7L1jSgANqyGNvF_TJbOU28NN95UeWnlu5SHp9o-wp0p8ytLiOVX0GMFWpsb7rBZek6OWrEx2eYk3TvtoDU_D1MytBhMgx-e0lKU5CaVNUvstShCk6B5WlDJHd3-FCefTgPPToqyvJlPNutcMDFBvYqduj-_eAEvV6VdDbr_cgzSsmEDRQ4hvLKKSmWP6fE2argHOXzdcq8Q6iDjyJu_yjWGztrNMOhmDOyff4iTdGWkhaBHPKF-J-WdJLhMxjGjJmB9fI1rhDZSw7rlVxaYZrZs3KO9OIASfs-iaNeR1bnSCMGX5YSDWyLsbCUegWwnYU_R_GRKJnfKp-uFL0_r66W0L7ft8I0O5e22wYeOJO1Bb6DH5a-CwAMtCI6AnrZlYMfag8Yi-FJAu7_q5fOYmQqONTwjWmog&quot;}
+src/test/java/examples/users/token.feature:54
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.users</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-03-24 08:12:59 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>get all users</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/users.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Check returned users from API</span>
+          <span class="feature-description">for help, see: https://github.com/intuit/karate/wiki/IDE-Support</span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">get all users</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1522</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">20:12:58.146 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/public-api/users/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param name = &#39;Ivan&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1481</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">20:12:58.813 request:
+1 &gt; GET https://gorest.co.in/public-api/users/?name=Ivan
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:12:59.698 response time in milliseconds: 853
+1 &lt; 200
+1 &lt; Server: nginx
+1 &lt; Date: Wed, 24 Mar 2021 15:12:59 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: [Accept-Encoding, Origin]
+1 &lt; X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; ETag: W/&quot;a19475780a4c21e001befd574d28165e&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: c73cea2b-b9ba-488d-aab8-99e0e2e475f9
+1 &lt; X-Runtime: 0.004913
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Expect-CT: enforce; max-age=3600
+{&quot;code&quot;:200,&quot;data&quot;:[{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T17:04:56.308+05:30&quot;,&quot;name&quot;:&quot;Ivan Ivan&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:06.198+05:30&quot;,&quot;id&quot;:148,&quot;email&quot;:&quot;sethi_kamalesh_dvm@dach-larkin.net&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T18:50:30.062+05:30&quot;,&quot;name&quot;:&quot;Ivan Ivan&quot;,&quot;created_at&quot;:&quot;2021-03-24T03:50:06.251+05:30&quot;,&quot;id&quot;:152,&quot;email&quot;:&quot;dhruv_tagore@fadel.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T06:25:56.667+05:30&quot;,&quot;name&quot;:&quot;Ivan Ivanov&quot;,&quot;created_at&quot;:&quot;2021-03-24T06:25:54.790+05:30&quot;,&quot;id&quot;:1473,&quot;email&quot;:&quot;IvanIvanov@gmail.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-24T06:29:46.314+05:30&quot;,&quot;name&quot;:&quot;Ivan Ivanov&quot;,&quot;created_at&quot;:&quot;2021-03-24T06:29:44.167+05:30&quot;,&quot;id&quot;:1474,&quot;email&quot;:&quot;IvanIvanov1@gmail.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T06:30:29.035+05:30&quot;,&quot;name&quot;:&quot;Ivana Ivanova&quot;,&quot;created_at&quot;:&quot;2021-03-24T06:30:25.332+05:30&quot;,&quot;id&quot;:1475,&quot;email&quot;:&quot;IvanIvanov2@gmail.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T06:35:16.454+05:30&quot;,&quot;name&quot;:&quot;Ivana Ivanova&quot;,&quot;created_at&quot;:&quot;2021-03-24T06:35:12.243+05:30&quot;,&quot;id&quot;:1476,&quot;email&quot;:&quot;IvanIvanov3@gmail.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-24T06:42:58.179+05:30&quot;,&quot;name&quot;:&quot;Ivana Ivanova&quot;,&quot;created_at&quot;:&quot;2021-03-24T06:42:53.829+05:30&quot;,&quot;id&quot;:1481,&quot;email&quot;:&quot;IvanIvanov4@gmail.com&quot;,&quot;status&quot;:&quot;Active&quot;}],&quot;meta&quot;:{&quot;pagination&quot;:{&quot;total&quot;:7,&quot;pages&quot;:1,&quot;limit&quot;:20,&quot;page&quot;:1}}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def userResponse = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>match userResponse.data[*].name contains [&quot;Ivan Ivan &quot;]</span>
+      </div>
+    </div>
+    <div class="time-cell failed">30</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">20:12:59.735 src/test/java/examples/users/users.feature:14
+Then match userResponse.data[*].name contains [&quot;Ivan Ivan &quot;]
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - Ivan Ivan  (LIST:LIST)
+  [&quot;Ivan Ivan&quot;,&quot;Ivan Ivan&quot;,&quot;Ivan Ivanov&quot;,&quot;Ivan Ivanov&quot;,&quot;Ivana Ivanova&quot;,&quot;Ivana Ivanova&quot;,&quot;Ivana Ivanova&quot;]
+  [&quot;Ivan Ivan &quot;]
+
+    $[6] | not equal (STRING:STRING)
+    &#39;Ivana Ivanova&#39;
+    &#39;Ivan Ivan &#39;
+
+    $[5] | not equal (STRING:STRING)
+    &#39;Ivana Ivanova&#39;
+    &#39;Ivan Ivan &#39;
+
+    $[4] | not equal (STRING:STRING)
+    &#39;Ivana Ivanova&#39;
+    &#39;Ivan Ivan &#39;
+
+    $[3] | not equal (STRING:STRING)
+    &#39;Ivan Ivanov&#39;
+    &#39;Ivan Ivan &#39;
+
+    $[2] | not equal (STRING:STRING)
+    &#39;Ivan Ivanov&#39;
+    &#39;Ivan Ivan &#39;
+
+    $[1] | not equal (STRING:STRING)
+    &#39;Ivan Ivan&#39;
+    &#39;Ivan Ivan &#39;
+
+    $[0] | not equal (STRING:STRING)
+    &#39;Ivan Ivan&#39;
+    &#39;Ivan Ivan &#39;
+
+src/test/java/examples/users/users.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

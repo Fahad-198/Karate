@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/users\/screen[1:15]","start":1617710270686,"end":1617710272445,"title":"src\/test\/java\/examples\/users\/screen[1:15] 16:57:50.686-16:57:52.445 Screen making","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/examples\/users\/screen[2:21]","start":1617710272446,"end":1617710273207,"title":"src\/test\/java\/examples\/users\/screen[2:21] 16:57:52.446-16:57:53.207 Screen making with empty screen_name field"},{"id":3,"group":1,"content":"src\/test\/java\/examples\/users\/screen[3:27]","start":1617710273239,"end":1617710273900,"title":"src\/test\/java\/examples\/users\/screen[3:27] 16:57:53.239-16:57:53.900 Screen making with empty screen_description field"},{"id":4,"group":1,"content":"src\/test\/java\/examples\/users\/screen[4:33]","start":1617710273907,"end":1617710274649,"title":"src\/test\/java\/examples\/users\/screen[4:33] 16:57:53.907-16:57:54.649 Screen making with empty screen_type field"},{"id":5,"group":1,"content":"src\/test\/java\/examples\/users\/screen[5:39]","start":1617710274666,"end":1617710274680,"title":"src\/test\/java\/examples\/users\/screen[5:39] 16:57:54.666-16:57:54.680 Screen making with empty screen_type field without quotations","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/examples\/users\/screen[6:46]","start":1617710274712,"end":1617710275560,"title":"src\/test\/java\/examples\/users\/screen[6:46] 16:57:54.712-16:57:55.560 Screen making with all fields empty"},{"id":7,"group":1,"content":"src\/test\/java\/examples\/users\/screen[7:52]","start":1617710275561,"end":1617710276278,"title":"src\/test\/java\/examples\/users\/screen[7:52] 16:57:55.561-16:57:56.278 Screen making with long title"},{"id":8,"group":1,"content":"src\/test\/java\/examples\/users\/screen[8:58]","start":1617710276279,"end":1617710276918,"title":"src\/test\/java\/examples\/users\/screen[8:58] 16:57:56.279-16:57:56.918 Screen making with long description"},{"id":9,"group":1,"content":"src\/test\/java\/examples\/users\/screen[9:64]","start":1617710276935,"end":1617710277397,"title":"src\/test\/java\/examples\/users\/screen[9:64] 16:57:56.935-16:57:57.397 Screen making with screen type greater then 4","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

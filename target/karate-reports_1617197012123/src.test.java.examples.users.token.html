@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.token</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-03-31 06:18:14 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Create a user</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/token.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">check generated token by API</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Create a user</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2358</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://gorest.co.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">18:18:12.328 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;b5f9f45ac229d3774ede1f1fe787a60891b0c63baf41945894e065933b247bf6&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/public-api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;name&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAA&quot;,&quot;email&quot;:&quot;fadi077@gutmann.com&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;Active&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:03.676+05:30&quot;,&quot;updated_at&quot;:&quot;2021-03-31T16:59:14.084+05:30&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">62</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2281</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">18:18:13.260 request:
+1 &gt; POST http://gorest.co.in/public-api/users
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Authorization: b5f9f45ac229d3774ede1f1fe787a60891b0c63baf41945894e065933b247bf6
+1 &gt; Content-Length: 188
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;gender&quot;:&quot;male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T16:59:14.084+05:30&quot;,&quot;name&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAA&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:03.676+05:30&quot;,&quot;email&quot;:&quot;fadi077@gutmann.com&quot;,&quot;status&quot;:&quot;Active&quot;}
+
+18:18:13.546 request:
+2 &gt; POST http://gorest.co.in/public-api/users
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Authorization: b5f9f45ac229d3774ede1f1fe787a60891b0c63baf41945894e065933b247bf6
+2 &gt; Host: gorest.co.in
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;gender&quot;:&quot;male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T16:59:14.084+05:30&quot;,&quot;name&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAA&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:03.676+05:30&quot;,&quot;email&quot;:&quot;fadi077@gutmann.com&quot;,&quot;status&quot;:&quot;Active&quot;}
+
+18:18:14.726 response time in milliseconds: 1149
+2 &lt; 200
+2 &lt; Server: nginx
+2 &lt; Date: Wed, 31 Mar 2021 13:18:14 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; Vary: [Accept-Encoding, Origin]
+2 &lt; X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Download-Options: noopen
+2 &lt; X-Permitted-Cross-Domain-Policies: none
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
+2 &lt; ETag: W/&quot;7f14b568dc80d38c518dea190e74974c&quot;
+2 &lt; Cache-Control: max-age=0, private, must-revalidate
+2 &lt; X-Request-Id: d7438280-880c-46c1-9eaa-31a0d92edeff
+2 &lt; X-Runtime: 0.004866
+2 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 &lt; Expect-CT: enforce; max-age=3600
+{&quot;code&quot;:200,&quot;data&quot;:[{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T18:22:21.217+05:30&quot;,&quot;name&quot;:&quot;Valod patel&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:03.676+05:30&quot;,&quot;id&quot;:25,&quot;email&quot;:&quot;amb_giri_pillaihjkhjk@gutmann.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.388+05:30&quot;,&quot;name&quot;:&quot;Prof. Aasa Khatri&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.388+05:30&quot;,&quot;id&quot;:66,&quot;email&quot;:&quot;prof_aasa_khatri@bode.org&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.503+05:30&quot;,&quot;name&quot;:&quot;Anand Swarup Rana&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.503+05:30&quot;,&quot;id&quot;:72,&quot;email&quot;:&quot;swarup_anand_rana@murray-goodwin.org&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T18:20:54.556+05:30&quot;,&quot;name&quot;:&quot;Pres. Rati Sahdsdscvdfsv&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.600+05:30&quot;,&quot;id&quot;:79,&quot;email&quot;:&quot;sharma_prsdes_dsfvdfsvrati@jones.biz&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T18:24:52.992+05:30&quot;,&quot;name&quot;:&quot;Dr. Prem P&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.616+05:30&quot;,&quot;id&quot;:82,&quot;email&quot;:&quot;dr_pillaim@hand.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.641+05:30&quot;,&quot;name&quot;:&quot;Himadri Somayaji&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.641+05:30&quot;,&quot;id&quot;:83,&quot;email&quot;:&quot;somayaji_himadri@smith-doyle.name&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.645+05:30&quot;,&quot;name&quot;:&quot;Elakshi Khanna&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.645+05:30&quot;,&quot;id&quot;:84,&quot;email&quot;:&quot;elakshi_khanna@dubuque-connelly.net&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.653+05:30&quot;,&quot;name&quot;:&quot;Girika Dubashi&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.653+05:30&quot;,&quot;id&quot;:85,&quot;email&quot;:&quot;girika_dubashi@kub-marvin.info&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.671+05:30&quot;,&quot;name&quot;:&quot;Gaurang Acharya&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.671+05:30&quot;,&quot;id&quot;:86,&quot;email&quot;:&quot;gaurang_acharya@renner-connelly.name&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.674+05:30&quot;,&quot;name&quot;:&quot;Baalaaditya Chattopadhyay&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.674+05:30&quot;,&quot;id&quot;:87,&quot;email&quot;:&quot;chattopadhyay_baalaaditya@franecki-predovic.name&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.684+05:30&quot;,&quot;name&quot;:&quot;Ambar Jain&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.684+05:30&quot;,&quot;id&quot;:88,&quot;email&quot;:&quot;ambar_jain@ankunding.org&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.709+05:30&quot;,&quot;name&quot;:&quot;Arya Butt DO&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.709+05:30&quot;,&quot;id&quot;:89,&quot;email&quot;:&quot;butt_do_arya@harris.info&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.738+05:30&quot;,&quot;name&quot;:&quot;Aadi Dutta CPA&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.738+05:30&quot;,&quot;id&quot;:90,&quot;email&quot;:&quot;aadi_dutta_cpa@lubowitz.net&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.751+05:30&quot;,&quot;name&quot;:&quot;Lai Naik&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.751+05:30&quot;,&quot;id&quot;:91,&quot;email&quot;:&quot;naik_lai@wilkinson.org&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.757+05:30&quot;,&quot;name&quot;:&quot;Sarvin Shukla&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.757+05:30&quot;,&quot;id&quot;:92,&quot;email&quot;:&quot;sarvin_shukla@stracke.com&quot;,&quot;status&quot;:&quot;Active&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.781+05:30&quot;,&quot;name&quot;:&quot;Chandramani Bhattathiri&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.781+05:30&quot;,&quot;id&quot;:93,&quot;email&quot;:&quot;bhattathiri_chandramani@jenkins-mcdermott.net&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.786+05:30&quot;,&quot;name&quot;:&quot;Rep. Bilva Kaul&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.786+05:30&quot;,&quot;id&quot;:94,&quot;email&quot;:&quot;kaul_bilva_rep@wuckert-kuhn.name&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.807+05:30&quot;,&quot;name&quot;:&quot;Tarun Varrier Ret.&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.807+05:30&quot;,&quot;id&quot;:95,&quot;email&quot;:&quot;varrier_tarun_ret@hermiston-connelly.name&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Female&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.812+05:30&quot;,&quot;name&quot;:&quot;Dhanalakshmi Nehru&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.812+05:30&quot;,&quot;id&quot;:96,&quot;email&quot;:&quot;nehru_dhanalakshmi@koch.co&quot;,&quot;status&quot;:&quot;Inactive&quot;},{&quot;gender&quot;:&quot;Male&quot;,&quot;updated_at&quot;:&quot;2021-03-31T03:50:04.815+05:30&quot;,&quot;name&quot;:&quot;Suma Chopra&quot;,&quot;created_at&quot;:&quot;2021-03-31T03:50:04.815+05:30&quot;,&quot;id&quot;:97,&quot;email&quot;:&quot;suma_chopra@nienow.net&quot;,&quot;status&quot;:&quot;Active&quot;}],&quot;meta&quot;:{&quot;pagination&quot;:{&quot;total&quot;:1439,&quot;pages&quot;:72,&quot;limit&quot;:20,&quot;page&quot;:1}}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
